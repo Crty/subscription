@@ -4,8 +4,15 @@
 
 ## 卡片式广告
 
+默认禁用
+
 - [快照-0](https://i.gkd.li/import/13413556)
 
-## 全屏广告
+## 谷歌广告
+
+默认禁用
 
 - [快照-0](https://i.gkd.li/import/13426255)
+- [快照-1](https://i.gkd.li/import/13459399)
+- [快照-2](https://i.gkd.li/import/13476799)
+- [快照-3](https://i.gkd.li/import/13476579)

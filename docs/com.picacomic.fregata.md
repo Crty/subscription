@@ -1,6 +1,6 @@
 # PicACG
 
-存在 4 规则组 - [com.picacomic.fregata](/src/apps/com.picacomic.fregata.ts)
+存在 5 规则组 - [com.picacomic.fregata](/src/apps/com.picacomic.fregata.ts)
 
 ## 开屏广告
 
@@ -10,7 +10,7 @@
 
 ## 公告
 
-点击主页面的公告和广告
+默认禁用 - 点击主页面的公告和广告
 
 - [示例-0](https://m.gkd.li/83610194/a5cbd7ce-79b4-49da-ba01-2b7db907d1f1)
 
@@ -18,7 +18,7 @@
 
 ## 漫画页广告
 
-点击卡片广告
+默认禁用 - 点击卡片广告
 
 - [示例-0](https://m.gkd.li/83610194/92feb979-d75a-4ee5-a880-da2e4250d1e3)
 
@@ -33,3 +33,9 @@
 
 - [快照-0](https://i.gkd.li/import/13422844)
 - [快照-1](https://i.gkd.li/import/13422874)
+
+## 流量提醒弹窗
+
+默认禁用 - 弹出流量提醒弹窗时自动点击“确定”
+
+- [快照-0](https://i.gkd.li/import/13466492)

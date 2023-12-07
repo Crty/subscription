@@ -21,7 +21,7 @@ export default defineAppConfig({
       // matchTime: 10000, 部分更新提示不在10s内
       actionMaximum: 1,
       resetMatch: 'app',
-      matchDelay: 3000,
+      // matchDelay: 3000, 想不起来为啥加的了，先删掉
       rules:
         '[text*="更新应用版本"] < ScrollView + [text="取消"][focusable=true]',
       snapshotUrls: [
@@ -36,6 +36,7 @@ export default defineAppConfig({
         {
           key: 0,
           name: '红包弹窗1',
+          quickFind: true,
           activityIds: [
             'me.ele.component.pops2.Pops2MistDialog',
             'me.ele.component.webcontainer.view.AppUCWebActivity',
@@ -44,7 +45,7 @@ export default defineAppConfig({
             'me.ele.shopdetailv2.ShopDetailV2Activity',
           ],
           matches:
-            '[id="me.ele:id/id_magex_mistview"][childCount=2] > ViewGroup + ImageView[clickable=true]',
+            '@ImageView[clickable=true] - ViewGroup < [id="me.ele:id/id_magex_mistview"][childCount=2]',
           snapshotUrls: [
             'https://i.gkd.li/import/12650238',
             'https://i.gkd.li/import/13294893',
@@ -65,19 +66,34 @@ export default defineAppConfig({
     {
       key: 4,
       name: '活动弹窗',
+      quickFind: true,
       rules: [
         {
           key: 1,
-          name: '天天特价',
           activityIds: [
             'me.ele.component.pops2.Pops2MistDialog',
             'me.ele.newbooking.checkout.entrypoint.WMCheckoutActivity',
+            'me.ele.application.ui.Launcher.LauncherActivity',
           ],
           matches:
-            '[id="me.ele:id/id_magex_mistview"][childCount=2] > ImageView + ImageView[clickable=true]',
+            '@ImageView[clickable=true] - ImageView < [id="me.ele:id/id_magex_mistview"][childCount=2]',
           snapshotUrls: [
             'https://i.gkd.li/import/12726709',
-            'https://i.gkd.li/import/13362878',
+            'https://i.gkd.li/import/13476719',
+            'https://i.gkd.li/import/13523508',
+          ],
+        },
+        {
+          key: 2,
+          activityIds: [
+            'me.ele.application.ui.Launcher.LauncherActivity',
+            'me.ele.application.ui.Launcher.LauncherActivity',
+          ],
+          matches:
+            '[id="me.ele:id/fl_render_e_shop"] + FrameLayout >n ViewGroup[childCount=6] > View[index=5]',
+          snapshotUrls: [
+            'https://i.gkd.li/import/13476611',
+            'https://i.gkd.li/import/13523541',
           ],
         },
       ],

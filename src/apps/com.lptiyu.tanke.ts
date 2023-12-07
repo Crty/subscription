@@ -42,14 +42,29 @@ export default defineAppConfig({
         },
         {
           key: 2,
-          name: '快手广告',
-          activityIds: 'com.lptiyu.tanke.activities.splash.SplashActivity',
+          name: '快手广告-1',
+          activityIds: [
+            'com.lptiyu.tanke.activities.splash.SplashActivity',
+            'com.lptiyu.tanke.activities.school_run_record_detail.RunRecordDetailActivity',
+          ],
           matches:
             '[text="广告"] <2 ViewGroup -n ViewGroup > @ViewGroup[childCount=1] > ImageView',
-          snapshotUrls: 'https://i.gkd.li/import/13218232',
+          snapshotUrls: [
+            'https://i.gkd.li/import/13218232',
+            'https://i.gkd.li/import/13536714',
+          ],
         },
         {
           key: 3,
+          name: '快手广告-2',
+          activityIds: 'com.lptiyu.tanke.activities.splash.SplashActivity',
+          quickFind: true,
+          matches:
+            '[text="广告"] <2 ViewGroup - ViewGroup > ViewGroup > [text="跳过"]',
+          snapshotUrls: 'https://i.gkd.li/import/13476172',
+        },
+        {
+          key: 4,
           name: '其他广告',
           activityIds: 'com.lptiyu.tanke.activities.splash.SplashActivity',
           matches:

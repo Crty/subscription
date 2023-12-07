@@ -1,6 +1,6 @@
 # QQ
 
-存在 19 规则组 - [com.tencent.mobileqq](/src/apps/com.tencent.mobileqq.ts)
+存在 20 规则组 - [com.tencent.mobileqq](/src/apps/com.tencent.mobileqq.ts)
 
 ## 开屏广告
 
@@ -18,6 +18,7 @@
 - [快照-2](https://i.gkd.li/import/13207766)
 - [快照-3](https://i.gkd.li/import/13386518)
 - [快照-4](https://i.gkd.li/import/13426912)
+- [快照-5](https://i.gkd.li/import/13476400)
 
 ## 好友动态-广告卡片
 
@@ -27,6 +28,8 @@
 - [快照-1](https://i.gkd.li/import/12840889)
 
 ## 频道页面广告
+
+默认禁用
 
 - [快照-0](https://i.gkd.li/import/13206663)
 - [快照-1](https://i.gkd.li/import/12642081)
@@ -53,11 +56,13 @@
 
 ## 动态广告卡片
 
-点击右上角[广告]右侧的x按钮直接关闭
+默认禁用 - 点击右上角[广告]右侧的x按钮直接关闭
 
 - [快照-0](https://i.gkd.li/import/12749584)
 
 ## 扫一扫-登录确认
+
+默认禁用
 
 - [快照-0](https://i.gkd.li/import/12789287)
 - [快照-1](https://i.gkd.li/import/13166314)
@@ -70,6 +75,8 @@
 
 ## 我的等级-浮窗广告
 
+默认禁用
+
 - [快照-0](https://i.gkd.li/import/12914734)
 
 ## 自动勾选原图
@@ -79,6 +86,7 @@
 - [快照-0](https://i.gkd.li/import/12705556)
 - [快照-1](https://i.gkd.li/import/12705559)
 - [快照-2](https://i.gkd.li/import/13295142)
+- [快照-3](https://i.gkd.li/import/13476247)
 
 ## 自动查看原图
 
@@ -96,12 +104,14 @@
 
 ## QQ小程序开屏广告
 
-点击右下角跳过
+默认禁用 - 点击右下角跳过
 
 - [快照-0](https://i.gkd.li/import/12877215)
 - [快照-1](https://i.gkd.li/import/12919195)
 
 ## 黄钻-弹窗广告
+
+默认禁用
 
 - [快照-0](https://i.gkd.li/import/12914978)
 - [快照-1](https://i.gkd.li/import/12914886)
@@ -117,14 +127,17 @@
 
 ## NT QQ-登录确认
 
-NT QQ 登录时自动点击允许登录QQ
+默认禁用 - NT QQ 登录时自动点击允许登录QQ
 
 - [快照-0](https://i.gkd.li/import/13063027)
 
 ## 更新弹窗
 
+默认禁用
+
 - [快照-0](https://i.gkd.li/import/13188721)
 - [快照-1](https://i.gkd.li/import/13386719)
+- [快照-2](https://i.gkd.li/import/13459507)
 
 ## 消息页面-顶部更新提示
 
@@ -132,3 +145,9 @@ NT QQ 登录时自动点击允许登录QQ
 
 - [快照-0](https://i.gkd.li/import/13188722)
 - [快照-1](https://i.gkd.li/import/13255493)
+
+## 内测邀请弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13526551)

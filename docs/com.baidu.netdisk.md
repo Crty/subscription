@@ -9,31 +9,40 @@
 - [快照-2](https://i.gkd.li/import/12988458)
 - [快照-3](https://i.gkd.li/import/12648924)
 - [快照-4](https://i.gkd.li/import/12865287)
+- [快照-5](https://i.gkd.li/import/13538334)
 
 ## 活动弹窗
 
-关闭各种活动弹窗信息
+默认禁用 - 关闭各种活动弹窗信息
 
 - [快照-0](https://i.gkd.li/import/12642505)
 - [快照-1](https://i.gkd.li/import/12923937)
 
 ## 首页banner广告
 
+默认禁用
+
 - [快照-0](https://i.gkd.li/import/12706544)
 
 ## 首页热门广告
+
+默认禁用
 
 - [快照-0](https://i.gkd.li/import/12706544)
 
 ## 我的页面-限时福利
 
+默认禁用
+
 - [快照-0](https://i.gkd.li/import/12706549)
 
 ## 相册页面-激活无限空间弹窗
 
+默认禁用
+
 - [快照-0](https://i.gkd.li/import/12648987)
 
-## 更新提醒弹窗
+## 更新弹窗
 
 默认禁用
 
@@ -41,7 +50,7 @@
 
 ## 续费横幅提示
 
-关闭续费横幅提示
+默认禁用 - 关闭续费横幅提示
 
 - [快照-0](https://i.gkd.li/import/12924036)
 

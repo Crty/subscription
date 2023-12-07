@@ -164,7 +164,7 @@ export type AppConfigMudule = {
   default: AppConfig;
 };
 
-type GroupConfig = {
+export type GroupConfig = {
   /**
    * 当前规则组在列表中的唯一标识\
    * 也是客户端禁用/启用此规则组的依据
@@ -176,6 +176,8 @@ type GroupConfig = {
 
   /**
    * 控制规则默认情况下是启用还是禁用, 默认启用
+   *
+   * 仅对于本仓库的规则而言, 除开屏广告外, 其它规则默认禁用
    */
   enable?: boolean;
 

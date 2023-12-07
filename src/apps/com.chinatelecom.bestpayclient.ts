@@ -33,9 +33,29 @@ export default defineAppConfig({
       actionMaximum: 1,
       resetMatch: 'app',
       activityIds: 'com.chinatelecom.bestpayclient.ui.MainActivity',
-      rules:
-        '[id^="am-modal-container"] Dialog @View[clickable=true][index=1] > Image',
-      snapshotUrls: 'https://i.gkd.li/import/13402692',
+      rules: [
+        {
+          key: 0,
+          name: '权益页',
+          matches:
+            'Image < @View[clickable=true][index=1] <<n Dialog <<n [id="com.chinatelecom.bestpayclient:id/best_h5_container"]',
+          snapshotUrls: 'https://i.gkd.li/import/13402692',
+        },
+        {
+          key: 1,
+          name: '首页',
+          matches:
+            '[id="com.chinatelecom.bestpayclient:id/iv_dialog_close_one"]',
+          snapshotUrls: 'https://i.gkd.li/import/13455790',
+        },
+        {
+          key: 2,
+          name: '借贷页',
+          matches:
+            '@View[clickable=true][text=""] <<n [id="com.chinatelecom.bestpayclient:id/best_h5_container"]',
+          snapshotUrls: 'https://i.gkd.li/import/13455929',
+        },
+      ],
     },
     {
       enable: false,
@@ -47,6 +67,16 @@ export default defineAppConfig({
       rules:
         '[id="com.chinatelecom.bestpayclient:id/best_h5_container"] View[childCount=2] > @View[clickable=true] +  View[clickable=true] > Image[text!=null]',
       snapshotUrls: 'https://i.gkd.li/import/13402711',
+    },
+    {
+      key: 5,
+      name: '年底积分活动弹窗',
+      activityIds: 'com.alipay.mobile.nebulacore.ui.H5Activity',
+      actionMaximum: 1,
+      resetMatch: 'activity',
+      matchTime: 10000,
+      rules: 'View > View[index=1] > Image',
+      snapshotUrls: 'https://i.gkd.li/import/13543032',
     },
   ],
 });

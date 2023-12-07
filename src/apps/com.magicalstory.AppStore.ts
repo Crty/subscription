@@ -31,6 +31,7 @@ export default defineAppConfig({
           activityIds: [
             'com.magicalstory.AppStore.search.searchActivity',
             'com.magicalstory.AppStore.appDetails.AppDetailsActivity',
+            'com.magicalstory.AppStore.main.fragments.square.section.forumDetailsActivity',
           ],
           matches: [
             '[id^="com.magicalstory.AppStore:id/banner"]',
@@ -40,6 +41,7 @@ export default defineAppConfig({
             'https://i.gkd.li/import/13185746',
             'https://i.gkd.li/import/13413482',
             'https://i.gkd.li/import/13416979',
+            'https://i.gkd.li/import/13527698',
           ],
         },
         {
@@ -66,6 +68,16 @@ export default defineAppConfig({
           snapshotUrls: 'https://i.gkd.li/import/13437553',
         },
       ],
+    },
+    {
+      key: 3,
+      name: '更新弹窗',
+      quickFind: true,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      rules:
+        '[id="com.magicalstory.AppStore:id/tv_update"] <2 * + * > [id="com.magicalstory.AppStore:id/iv_close"]',
+      snapshotUrls: 'https://i.gkd.li/import/13459373',
     },
   ],
 });
